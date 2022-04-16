@@ -54,6 +54,16 @@ importers:
       prettier-eslint-cli: 5.0.1
       typescript: 4.6.3
 
+  packages/solid-keycloak:
+    specifiers:
+      '@solid-primitives/context': ^0.1.0
+      keycloak-js: ^17.0.1
+      solid-js: ^1.3.15
+    dependencies:
+      '@solid-primitives/context': 0.1.0_solid-js@1.3.15
+      keycloak-js: 17.0.1
+      solid-js: 1.3.15
+
 packages:
 
   /@babel/code-frame/7.12.11:
@@ -235,6 +245,14 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
     dev: true
+
+  /@solid-primitives/context/0.1.0_solid-js@1.3.15:
+    resolution: {integrity: sha512-OTPSv00OErONieh/rdvWXqgSB4EHIXHkwvnsgUX5kZO0A5BMbkjcbXzwCbx3hRlLDfNteHd8ovzyKFo5oqA5kA==}
+    peerDependencies:
+      solid-js: ^1.3.0
+    dependencies:
+      solid-js: 1.3.15
+    dev: false
 
   /@tsconfig/node10/1.0.8:
     resolution: {integrity: sha512-6XFfSQmMgq0CFLY1MslA/CPUfhIL919M1rMsa5lP2P097N2Wd1sSX0tx1u4olM16fLNhtHZpRhedZJphNJqmZg==}
@@ -738,6 +756,10 @@ packages:
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
     dev: true
+
+  /base64-js/1.5.1:
+    resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
+    dev: false
 
   /boolify/1.0.1:
     resolution: {integrity: sha1-tcCeF8rNET0Rt7s+04TMASmU2Gs=}
@@ -2173,6 +2195,10 @@ packages:
     resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
     dev: true
 
+  /js-sha256/0.9.0:
+    resolution: {integrity: sha512-sga3MHh9sgQN2+pJ9VYZ+1LPwXOxuBJBA5nrR5/ofPfuiJBE2hnjsaN8se8JznOmGLN2p49Pe5U/ttafcs/apA==}
+    dev: false
+
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
     dev: true
@@ -2237,6 +2263,13 @@ packages:
   /kebab-case/1.0.1:
     resolution: {integrity: sha512-txPHx6nVLhv8PHGXIlAk0nYoh894SpAqGPXNvbg2hh8spvHXIah3+vT87DLoa59nKgC6scD3u3xAuRIgiMqbfQ==}
     dev: true
+
+  /keycloak-js/17.0.1:
+    resolution: {integrity: sha512-mbLBSoogCBX5VYeKCdEz8BaRWVL9twzSqArRU3Mo3Z7vEO1mghGZJ5IzREfiMEi7kTUZtk5i9mu+Yc0koGkK6g==}
+    dependencies:
+      base64-js: 1.5.1
+      js-sha256: 0.9.0
+    dev: false
 
   /klaw-sync/6.0.0:
     resolution: {integrity: sha512-nIeuVSzdCCs6TDPTqI8w1Yre34sSq7AkZ4B3sfOBbI2CgVSB4Du4aLQijFU2+lhAFCwt9+42Hel6lQNIv6AntQ==}
@@ -2991,6 +3024,10 @@ packages:
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
     dev: true
+
+  /solid-js/1.3.15:
+    resolution: {integrity: sha512-tghvvwstKQWC3RIkIT1xf70gQx7+oxYeQ2BR/Y0MrCF4+icen/xBwy3nJ0fUNuP58QCbFmszK6TmMturD/sNrA==}
+    dev: false
 
   /sprintf-js/1.0.3:
     resolution: {integrity: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=}

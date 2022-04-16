@@ -17,7 +17,3 @@ jspm_packages/
 .env.test.local
 .env.production.local
 .env.local
-
-# Build
-dist
-*.tsbuildinfo

@@ -18,11 +18,7 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: { modules: true },
     ecmaVersion: 6,
-    project: [
-      './tsconfig.json',
-      'apps/*/tsconfig.json',
-      'libs/*/tsconfig.json',
-    ],
+    project: ['./tsconfig.json', 'packages/*/tsconfig.json'],
     sourceType: 'module',
   },
   plugins: [
@@ -171,11 +167,7 @@ module.exports = {
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true,
-        project: [
-          './tsconfig.json',
-          'apps/*/tsconfig.json',
-          'libs/*/tsconfig.json',
-        ],
+        project: ['./tsconfig.json', 'packages/*/tsconfig.json'],
       },
     },
   },

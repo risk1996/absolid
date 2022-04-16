@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [".eslintrc.js", ".prettierrc.js"],
+  "exclude": ["node_modules", "**/node_modules", "**/dist"]
+}

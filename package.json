@@ -2,7 +2,7 @@
   "name": "absolid",
   "version": "0.1.0",
   "description": "Collection of useful SolidJS resources",
-  "author": "",
+  "author": "William Darian <williamdariansutedjo@gmail.com>",
   "license": "MIT",
   "scripts": {
     "commit": "cz",
