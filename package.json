@@ -2,12 +2,11 @@
   "name": "absolid",
   "version": "0.1.0",
   "description": "Collection of useful SolidJS resources",
-  "keywords": [
-    "solid",
-    "keycloak",
-    "reactive"
-  ],
   "author": "William Darian <williamdariansutedjo@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/risk1996/absolid"
+  },
   "license": "MIT",
   "scripts": {
     "commit": "cz",
