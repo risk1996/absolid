@@ -21,6 +21,7 @@ importers:
       eslint-plugin-sort-destructure-keys: ^1.4.0
       eslint-plugin-sort-keys-fix: ^1.1.2
       eslint-plugin-typescript-sort-keys: ^2.1.0
+      generate-changelog: ^1.8.0
       husky: ^7.0.4
       patch-package: ^6.4.7
       postinstall-postinstall: ^2.1.0
@@ -46,6 +47,7 @@ importers:
       eslint-plugin-sort-destructure-keys: 1.4.0_eslint@8.13.0
       eslint-plugin-sort-keys-fix: 1.1.2
       eslint-plugin-typescript-sort-keys: 2.1.0_f34adc8488d2e4f014fe61432d70cbf2
+      generate-changelog: 1.8.0
       husky: 7.0.4
       patch-package: 6.4.7
       postinstall-postinstall: 2.1.0
@@ -761,6 +763,10 @@ packages:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
     dev: false
 
+  /bluebird/3.7.2:
+    resolution: {integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==}
+    dev: true
+
   /boolify/1.0.1:
     resolution: {integrity: sha1-tcCeF8rNET0Rt7s+04TMASmU2Gs=}
     dev: true
@@ -884,6 +890,10 @@ packages:
 
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    dev: true
+
+  /commander/2.20.3:
+    resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
     dev: true
 
   /commitizen/4.2.4:
@@ -1781,6 +1791,15 @@ packages:
     resolution: {integrity: sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=}
     dev: true
 
+  /generate-changelog/1.8.0:
+    resolution: {integrity: sha512-msgpxeB75Ziyg3wGsZuPNl7c5RxChMKmYcAX5obnhUow90dBZW3nLic6nxGtst7Bpx453oS6zAIHcX7F3QVasw==}
+    hasBin: true
+    dependencies:
+      bluebird: 3.7.2
+      commander: 2.20.3
+      github-url-from-git: 1.5.0
+    dev: true
+
   /get-caller-file/2.0.5:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
@@ -1805,6 +1824,10 @@ packages:
     dependencies:
       call-bind: 1.0.2
       get-intrinsic: 1.1.1
+    dev: true
+
+  /github-url-from-git/1.5.0:
+    resolution: {integrity: sha1-+YX+3MCpqledyI16/waNVcxiUaA=}
     dev: true
 
   /glob-parent/5.1.2:

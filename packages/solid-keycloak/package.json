@@ -1,7 +1,7 @@
 {
   "name": "@absolid/solid-keycloak",
-  "version": "0.1.0",
-  "description": "Keycloak binding for SolidJS",
+  "version": "0.1.1",
+  "description": "Reactive Keycloak binding for SolidJS",
   "author": "William Darian <williamdariansutedjo@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",

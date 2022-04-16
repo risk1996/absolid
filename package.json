@@ -2,6 +2,11 @@
   "name": "absolid",
   "version": "0.1.0",
   "description": "Collection of useful SolidJS resources",
+  "keywords": [
+    "solid",
+    "keycloak",
+    "reactive"
+  ],
   "author": "William Darian <williamdariansutedjo@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -26,6 +31,7 @@
     "eslint-plugin-sort-destructure-keys": "^1.4.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "generate-changelog": "^1.8.0",
     "husky": "^7.0.4",
     "patch-package": "^6.4.7",
     "postinstall-postinstall": "^2.1.0",
